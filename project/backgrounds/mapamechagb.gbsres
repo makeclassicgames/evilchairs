@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9cb536ad-a50c-446e-a175-630230a70ca1",
+  "name": "mapamechagb",
+  "symbol": "bg_mapamechagb",
+  "width": 90,
+  "height": 18,
+  "imageWidth": 720,
+  "imageHeight": 144,
+  "filename": "mapamechagb.png",
+  "tileColors": "",
+  "autoColor": false
+}

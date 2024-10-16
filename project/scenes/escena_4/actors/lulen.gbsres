@@ -1,0 +1,103 @@
+{
+  "_resourceType": "actor",
+  "id": "ee1942a2-1989-475e-b48d-a1c62b27e2b6",
+  "name": "lulen",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cccf44c8-65c4-407c-88ee-1d389bf090ef",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Quiero Zumo de \nMelón"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a6f0981b-d81c-4ee4-aa17-db35b1df38d7"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 2,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "6a449134-88f7-4370-901d-46bef471de60",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "left",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 0,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "player"
+              ]
+            },
+            "id": "281e681b-3761-4c94-9b7e-c0368ed46654"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+            },
+            "id": "432f9a6e-51ef-4809-81c3-c4288159324c"
+          }
+        ]
+      },
+      "id": "86be369b-0912-4c8c-9fe0-8e98a56cf7e0"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 12,
+  "_index": 0
+}

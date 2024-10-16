@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f022bc44-1fc8-40c2-9667-6db0a57c50dd",
+  "name": "platform1",
+  "symbol": "bg_platform1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "platform1.png",
+  "tileColors": "",
+  "autoColor": false
+}

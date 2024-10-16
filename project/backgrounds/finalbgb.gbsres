@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f542f934-9a33-4ce9-9207-4f19b462a0b0",
+  "name": "finalbgb",
+  "symbol": "bg_finalbgb",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "finalbgb.png",
+  "tileColors": "",
+  "autoColor": false
+}
